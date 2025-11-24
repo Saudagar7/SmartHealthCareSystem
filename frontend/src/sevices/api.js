@@ -14,6 +14,7 @@ preds.push({ label: 'No symptoms provided', confidence: 0.9 })
 if (text.includes('fever') || text.includes('cough')) {
 preds.push({ label: 'Common Cold / Viral Infection', confidence: 0.72 })
 preds.push({ label: 'Flu', confidence: 0.42 })
+
 }
 if (text.includes('headache')) {
 preds.push({ label: 'Tension Headache', confidence: 0.6 })
